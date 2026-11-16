@@ -1,0 +1,30 @@
+**Summary**: Checkout Rejects Order When Requested Quantity Equals Available Stock
+
+
+**Severity:** High
+### Description
+Checkout displays an insufficient stock error even when the buyer's requested quantity exactly matches the seller's available stock.
+
+### Preconditions
+- Pure Chana Dal has exactly 1 piece available in the Seller Portal.
+
+### Steps to Reproduce
+1. Log in as a seller.
+2. Make Sure Pure Chana Dal stock to 1 piece.
+3. Log in as a buyer.
+4. Add exactly 1 piece of Pure Chana Dal to the cart.
+5. Proceed to Checkout.
+6. Observe the stock validation message.
+
+### Test Data : Pure Chana Daal
+
+### Expected Result
+Checkout should allow the buyer to proceed because the requested quantity does not exceed the available stock.
+
+### Actual Result
+Checkout displays the error:
+
+"Only 1 pieces of Pure Chana Dal in stock"
+
+### Evidence
+
