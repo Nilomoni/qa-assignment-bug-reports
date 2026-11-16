@@ -1,0 +1,34 @@
+**Summary**: CSV Import Reports Successful Upload Without Identifying Invalid Rows
+
+**Severity:** High
+
+### Description
+The Seller Portal accepts a CSV file containing multiple invalid or incomplete product records and displays a successful upload message without reporting the invalid rows.
+
+As per requirement IF-01, every invalid row must be reported with its corresponding line number and reason. However, the application does not display any row-level validation errors for the uploaded file.
+
+
+### Steps to Reproduce
+1. Log in to the Seller Portal.
+2. Navigate to the Product CSV Import section.
+3. Prepare a CSV file containing the required columns:
+   `sku, name, category, case_size, piece_price, case_price, tax_rate, stock`
+4. Introduce missing values in multiple required fields across different rows.
+5. Include one row with a missing SKU.
+6. Save the modified file in CSV format.
+7. Upload the file.
+8. Observe the import status and validation response.
+
+### 5. Expected Result
+The application should validate the uploaded CSV and identify every invalid row with its corresponding line number and reason.
+
+The application may import valid rows, but it must report all invalid rows. No invalid row should be silently ignored.
+
+### 6. Actual Result
+The application displays a successful upload message despite the presence of multiple incomplete product records.
+
+No row-level validation errors, line numbers, or reasons for rejection are displayed.
+
+
+### 9. Evidence
+https://github.com/Nilomoni/qa-assignment-bug-reports/blob/main/Bug-Reports/BUG-006.mp4
