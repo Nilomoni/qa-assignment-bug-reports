@@ -1,0 +1,25 @@
+**Bug**: Buyers Cannot Increase or Decrease Product Quantity from the Cart Page
+
+**Severity:** Medium 
+
+### Description
+The Buyer Cart page does not provide any option to increase or decrease the quantity of products already added to the cart.
+
+As a result, buyers cannot modify the quantity directly from the cart page.
+
+### Steps to Reproduce
+1. Log in to the application as a Buyer.
+2. Navigate to the Product Catalogue.
+3. Add any product to the cart.
+4. Open the Cart page.
+5. Observe the product quantity field.
+
+### Actual Result
+There is no option or control available to increase or decrease the product quantity directly from the Cart page.
+
+### Expected Result
+The Cart page should provide a quantity dropdown for each product, allowing buyers to increase or decrease the quantity from 1 to 20.
+
+Any quantity change should automatically update the corresponding line total and cart net total.
+
+**Evidence**
