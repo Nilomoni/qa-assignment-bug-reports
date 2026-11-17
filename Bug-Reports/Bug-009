@@ -25,3 +25,4 @@ This indicates that the product's available stock has dropped below zero.
 - Stock validation should never display a negative available quantity.
 
 **Evidence**
+https://github.com/Nilomoni/qa-assignment-bug-reports/blob/main/Bug-Reports/Bug-009.mp4
