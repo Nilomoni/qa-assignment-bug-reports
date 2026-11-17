@@ -1,0 +1,27 @@
+**Summarry**: Product Stock Quantity Becomes Negative and Is Displayed in Stock Validation Message
+
+
+**Severity:** High  
+
+### Description
+The application allows a product's available stock quantity to become negative. When attempting to order the product, the stock validation message displays a negative stock value instead of preventing the inventory from going below zero.
+
+### Steps to Reproduce
+1. Log in to the application as a Buyer.
+2. Add a product with '-n' stock, to the cart.
+3. Attempt to place an order that exceeds the available stock.
+4. Observe the stock validation message.
+
+### Actual Result
+The application displays the following error message:
+
+`Only -9 pieces of Chef's Curd in stock`
+
+This indicates that the product's available stock has dropped below zero.
+
+### Expected Result
+- The application should prevent stock quantity from becoming negative.
+- Orders exceeding available stock should be rejected.
+- Stock validation should never display a negative available quantity.
+
+**Evidence**
