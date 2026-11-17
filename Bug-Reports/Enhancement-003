@@ -1,0 +1,13 @@
+**Title**: [Operator] Provide CSV Download Option for Individual Logistics Export Runs
+
+**Module:** Operator Portal – Logistics Export  
+**Priority:** Low (P3)
+
+**Description:**  
+The Logistics Export Run History displays previous export runs with their creation timestamps and row counts. However, there is no option to download the CSV file associated with an individual run.
+
+**Expected Enhancement:**  
+Provide a Download CSV option for each historical export run so that operators can access and download previously generated logistics export files whenever required.
+
+**Evidence:**
+https://github.com/Nilomoni/qa-assignment-bug-reports/blob/main/Bug-Reports/Enhancment-003.mp4
