@@ -10,3 +10,5 @@ For example, if the buyer has already selected 17:00–20:00 for a particular da
 ### Expected Behaviour
 The currently assigned delivery slot should be clearly identified and should not be offered as an alternative selectable option for the same delivery date.
 
+**Evidence**
+https://github.com/Nilomoni/qa-assignment-bug-reports/blob/main/Bug-Reports/Enahancement-001.mp4
