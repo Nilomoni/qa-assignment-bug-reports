@@ -23,3 +23,4 @@ The Cart page should provide a quantity dropdown for each product, allowing buye
 Any quantity change should automatically update the corresponding line total and cart net total.
 
 **Evidence**
+https://github.com/Nilomoni/qa-assignment-bug-reports/blob/main/Bug-Reports/Bug-011.jpg
